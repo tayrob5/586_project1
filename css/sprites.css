@@ -1,0 +1,100 @@
+.dashboard-icon, .dashboard-icon:hover, .customers-icon, .customers-icons:hover, .messages-icon, .messages-icon:hover, .promotions-icon, .promotions-icon:hover, .page-icon, .page-icon:hover, .analytics-icon, .analytics-icon:hover, .people-icon, .people-icon:hover{
+	background: url(sprites.png) no-repeat;
+	display: inline-block;
+}
+
+.dashboard-icon:hover{
+	background-position: -4px -4px ;
+	width: 62px;
+	height: 95px;
+	margin: 0 1.5em 0 1.5em;
+}
+
+.dashboard-icon{
+	background-position: -82px -4px ;
+	width: 62px;
+	height: 95px;
+	margin: 0 1.5em 0 1.5em;
+}
+
+.customers-icons:hover{
+	background-position: -201px -5px ;
+	width: 62px;
+	height: 95px;
+	margin: 0 1.5em 0 1.5em;
+}
+
+.customers-icons{
+	background-position: -281px -4px ;
+	width: 62px;
+	height: 95px;
+	margin: 0 1.5em 0 1.5em;
+}
+
+.messages-icon:hover{
+	background-position: -394px -6px ;
+	width: 62px;
+	height: 95px;
+	margin: 0 1.5em 0 1.5em;
+}
+
+.messages-icon{
+	background-position: -475px -8px ;
+	width: 62px;
+	height: 95px;
+	margin: 0 1.5em 0 1.5em;
+}
+
+.promotions-icon:hover{
+	background-position: -6px -139px ;
+	width: 62px;
+	height: 95px;
+	margin: 0 1.5em 0 1.5em;
+}
+
+.promotions-icon{
+	background-position: -78px -140px ;
+	width: 62px;
+	height: 95px;
+	margin: 0 1.5em 0 1.5em;
+}
+
+.page-icon:hover{
+	background-position: -199px -140px ;
+	width: 62px;
+	height: 95px;
+	margin: 0 1.5em 0 1.5em;
+}
+
+.page-icon{
+	background-position: -283px -143px ;
+	width: 62px;
+	height: 95px;
+	margin: 0 1.5em 0 1.5em;
+}
+
+.analytics-icon:hover{
+	background-position: -391px -137px ;
+	width: 62px;
+	height: 95px;
+	margin: 0 1.5em 0 1.5em;
+}
+
+.analytics-icon{
+	background-position: -468px -136px ;
+	width: 62px;
+	height: 95px;
+	margin: 0 1.5em 0 1.5em;
+}
+
+.people-icon:hover{
+	background-position: -17px -277px ;
+	width: 22px;
+	height: 22px;
+}
+
+.people-icon{
+	background-position: -75px -278px ;
+	width: 22px;
+	height: 22px;
+}

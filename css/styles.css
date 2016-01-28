@@ -1,0 +1,503 @@
+body{
+    font-family: Myriad;
+    font-size: 12px;
+    color: #777777;
+}
+
+.left
+    {float: left;}
+
+.right
+    {float: right;}
+
+h1{
+    font-size: 32px;
+    color: #2498f4;
+}
+
+.no-padding{
+    padding: 0;
+}
+
+
+/*small nav bar*/
+.small{
+    color: white;
+    min-height: 45px;
+    text-align: right;
+    padding: 1em;
+    font-size: 14px;
+    background-image:
+        linear-gradient(
+            to bottom,
+            #208de4,
+            #1d86da
+         );
+}
+}
+
+.small a:link{
+    text-align: right;
+}
+
+.small-line{
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
+
+
+/*navigation*/
+.nav{
+    height: 110px;
+    background-color: #134670;
+}
+
+.small-nav{
+    height: 60px;
+    background-color: #134670;
+}
+
+.nav-background{
+    display: block;
+    margin: 0 auto;
+}
+
+.navigation-icons{
+   text-align: center;
+   padding-top: 2em;
+   margin: -9.9em;
+}
+
+.toggle-menu{
+   margin-top: -3.75em;
+   padding-left: 1em;
+}
+
+/*search & dash*/
+.dashboard{
+    min-height: 105px;
+    font-size: 36pt;
+    color: white;
+    padding-top: .2em;
+    padding-bottom: .2em;
+    margin-top:.1em;
+}
+
+.dashboard-green{
+    background-color: #33cc66;
+    min-height: 76px;
+    width: 100%;
+    border: 0 solid white;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding-top: .15em;
+    padding-bottom: .15em;
+}
+
+.search-input{
+    width: 258px;
+    margin-top: .25em;
+    margin-bottom: .25em;
+}
+
+.search-icon{
+    position: relative;
+        top: -1.1em;
+        left: -.4em;
+    color: #2498f4;
+    font-size: 25px;
+    float: right;
+}
+
+
+/*containers*/
+
+.main{
+    background-color: white;
+    width: 99.5%;
+    margin: 0 auto;
+    position: relative;
+    top: -15em;
+    border: 1px solid #eeeeee;
+}
+
+.gray-box{
+    height: 200px;
+    border-radius: 10px;
+    background-image:
+        linear-gradient(
+            to bottom,
+            #f6f6f6,
+            white
+         );
+}
+
+
+/*announcements, announcemnts, announcements*/
+.gray-line{
+    border-right: 1px solid #eeeeee;
+    height:100%;
+
+}
+
+.announcement{
+    min-height: 50px;
+    border-bottom: 1px solid #eeeeee;
+    font-size: 1.2em;
+    padding-top: 1.2em;
+}
+
+
+/*tasks*/
+
+.task-row{
+    border-bottom: 1px solid #eeeeee;
+    padding:.75em;
+}
+
+
+.tasks{
+    min-height: 300px;
+    font-size: 21px;
+    color: #2498f3;
+    padding-top: .9em;
+}
+
+.task-wrench{
+    float: right;
+}
+
+.tasks a:link{
+    color: #2498f3;
+}
+
+.tasks a:visited{
+    color: #2498f3;
+}
+
+.tasks a:hover{
+    color: #cccccc;
+    text-decoration: none;
+}
+
+.item{
+    background-color: #32cc66;
+    border-radius: 24px;
+    width: 24px;
+    height: 24px;
+    color: white;
+    display: inline-block;
+    margin-right: 1em;
+    padding-left: .4em;
+    padding-top: .05em;
+    font-size: 18px;
+}
+
+.bullet:hover {
+    background-color: #cccccc;
+}
+
+.task-box{
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    width: 60px;
+    height: 30px;
+    font-size: 16px;
+    padding: .25em;
+    float: right;
+}
+
+
+
+/*recommendations*/
+
+.recommendation-section {
+  margin: 0 -1.1em 0 -1.1em;
+}
+
+.recommendation-title {
+  border-bottom-style: solid;
+  border-width: 0.1em;
+  border-color: #e9e9e9;
+  padding-left: 1em;
+  margin: -1em 0 0.5em 0;
+}
+
+.category {
+  font-size: 0.8em;
+  margin-bottom: 0em;
+}
+
+.recommendation-text {
+  line-height: 1em;
+}
+
+.recommendation-option {
+  color: #777777;
+  border-bottom-style: dotted;
+  border-width: 0.1em;
+  border-color: #cccccc;
+  display: flex;
+  margin: 0 1em 0.5em 0.5em;
+  padding-left: 0em;
+}
+
+.recommendation-option:hover {
+  color: #2498f3;
+}
+
+.small{
+    font-size: 10px;
+}
+
+
+/*analytics*/
+.analytics{
+    border-left:1px #eeeeee solid;
+    border-bottom:1px #eeeeee solid;
+    min-height: 300px;
+    padding-bottom: 3em;
+}
+
+.analytics-mobile{
+    border-left:1px #eeeeee solid;
+    border-bottom:1px #eeeeee solid;
+    min-height: 300px;
+    padding-bottom: 3em;
+    padding-left:2em;
+    padding-right: 2em;
+}
+
+.btn-group{
+    position: relative;
+        top:-3em;
+}
+
+.caret{
+    color: #fe7f13;
+}
+
+.separate-data{
+    border-right: 1px solid #dddddd;
+    padding-right: 3em;
+}
+
+.pie{
+    padding-left: 2em;
+}
+
+.check{
+    padding-top: 2em;
+    text-align: center;
+}
+
+
+.check-small{
+    line-height: 2em;
+    display: inline-block;
+    padding-left: 4em;
+}
+
+
+
+
+/*customers*/
+.left-line{
+    border-left: 1px #eeeeee solid;
+}
+
+.customer{
+    padding: 4em 0 0 0;
+    border-bottom:1px #eeeeee solid;
+    min-height: 268px;
+}
+
+.customer-box{
+    height: 197px;
+    width: 212px;
+    border-right: solid #f2f2f2 1px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px #888888;
+    margin: 0 auto;
+}
+
+.customer-icon{
+    padding-left: 5.25em;
+    padding-right: 5.25em;
+    position: relative;
+        top: -2.2em;
+}
+
+.ribbon{
+    background-color: #2394ee;
+    color: white;
+    height: 50px;
+    width: 213px;
+    margin: 0 auto;
+    position: relative;
+        top: -2.2em;
+}
+
+.ribbon-ends{
+    position: relative;
+        left: -15px;
+        top: -6em;
+}
+
+.customer-graph{
+    padding-left: .65em;
+    padding-right: .65em;
+    position: relative;
+        top: -4.25em;
+}
+
+.customer-big{
+    color: white;
+    font-size: 21px;
+    text-align: center;
+    position: relative;
+        top: -9.25em;
+}
+
+.customer-small{
+    color: white;
+    font-size: 11px;
+    text-align: center;
+    position: relative;
+        top: -18.15em;
+}
+
+.small-questions{
+    border-left:1px #eeeeee solid;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    color: white;
+    font-size: 15px;
+    min-height: 11.5em;
+}
+
+.questions{
+    border-left:1px #eeeeee solid;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    color: white;
+    font-size: 15px;
+    height: 11.5em;
+}
+
+
+.blue-box{
+    padding: 1.65em 5em 1.65em 5em;
+    background-color: #2498f4;
+    min-height: 140px;
+    width: 99%;
+    margin: 0 auto;
+    border: solid 1px #2498f4;
+    border-radius: 3px;
+}
+
+.small-blue-box{
+    padding: 1.65em 5em 1.65em 5em;
+    background-color: #2498f4;
+    min-height: 140px;
+    width: 99%;
+    margin: 0 auto;
+    border: solid 1px red;
+    border-radius: 3px;
+}
+
+.arrow{
+    padding: 0 .25em 0 .23em;
+    position: relative;
+        top:-6.5em;
+}
+
+.ads{
+    background: #2498f4;
+    box-shadow: 0 1px 2px #888888;
+    min-height: 220px;
+    padding-top: 2.5em;
+    padding-bottom: .5em;
+    width: 100%;
+}
+
+
+.ad-box{
+    background-color: white;
+    width: 280px;
+    height: 160px;
+    border-radius: 7px;
+    margin: 0 auto;
+    box-shadow: 1px 1px 1px #1f81d0;
+}
+
+.small-ad-box{
+    background-color: white;
+    width: 280px;
+    height: 160px;
+    border-radius: 7px;
+    margin: 0 auto;
+    box-shadow: 1px 1px 1px #1f81d0;
+    margin-bottom: 2.5em;
+}
+
+.topofhead{
+    margin: 0 auto;
+    position: relative;
+    left: 11.5em;
+    top: -14.5em
+}
+
+.footer{
+    border-top: 4px solid white;
+    box-shadow: 0 -5px 3px #e5e5e5;
+    min-height: 50px;
+    background: #fafafa;
+    font-size: 14px;
+    padding-top: 1em;
+    height: 50px;
+}
+
+.footer a:link{
+    color: #2498f2;
+    font-weight: bold;
+}
+
+.footer-icon{
+    margin-top: -.75em;
+    box-shadow: 1px 1px 2px #888888;
+    margin-right: 1em;
+}
+
+.social-mobile{
+    margin-top: -1.5em;
+}
+
+@font-face {
+    font-family: Myriad;
+    src: url(../fonts/MyriadPro-Regular.otf);
+}
+
+input[type="checkbox"] {
+    display:none;
+}
+input[type="checkbox"] + label span {
+    display:inline-block;
+    width:22px;
+    height:21px;
+    margin:-1px 4px 0 0;
+    padding-left: 1em;
+    vertical-align:middle;
+    background:url(../images/checkbox-empty.png) left top no-repeat;
+    cursor:pointer;
+}
+
+input[type="checkbox"]:checked + label span {
+    display:inline-block;
+    width:22px;
+    height:21px;
+    margin:-1px 4px 0 0;
+     padding-left: 1em;
+    vertical-align:middle;
+    background:url(../images/checkbox.png) left top no-repeat;
+}
